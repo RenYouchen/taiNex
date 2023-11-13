@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/mainPage"
+            android:title="testa"/>
+        <item android:id="@+id/aboutPage"
+            android:title="testb2"/>
+        <item android:id="@+id/testc"
+            android:title="testc"/>
+    </group>
+</menu>

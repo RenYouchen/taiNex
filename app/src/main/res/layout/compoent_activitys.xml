@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:padding="5dp"
+    tools:parentTag="android.widget.RelativeLayout"
+    android:id="@+id/list_item_root"
+    android:clickable="true">
+    <RelativeLayout
+        android:id="@+id/timeAndPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textViewTime"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/time"
+            android:textAlignment="center"
+            android:text="0000.00.00" />
+        <LinearLayout
+            android:id="@+id/place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewTime"
+            android:layout_centerHorizontal="true"
+            >
+            <TextView
+                android:id="@+id/place1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color1"
+                android:text="1館" />
+            <TextView
+                android:id="@+id/place2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color2"
+                android:text="2館" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@id/timeAndPlace"
+        android:paddingLeft="10dp"
+        android:textSize="11dp"
+        android:textColor="@color/title"
+        android:textStyle="bold"
+        android:text="「元宇宙 web3.0 下一個奇蹟 THE NEXT MAGIC」，並未訂定南港展覽館二館場地" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/time"/>
+</RelativeLayout>

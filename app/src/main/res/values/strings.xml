@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">taiNex</string>
+
+
+    <string name="enter_email">輸入E-MAIL</string>
+
+    <string name="login_title">登   入</string>
+    <string name="login_pass">請輸入密碼</string>
+    <string name="login_ask">沒有任何帳號嗎？</string>
+    <string name="to_signup">註冊帳號</string>
+
+
+    <string name="signup_title">注   冊</string>
+    <string name="set_password">設定密碼</string>
+    <string name="confirm_password">請再次輸入密碼</string>
+    <string name="signup_ask">已經有帳號了！</string>
+    <string name="to_login">登入</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">THIS IS FRAG B</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
